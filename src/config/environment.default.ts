@@ -1,10 +1,11 @@
 import { IEnvironment } from './environment';
 
 export const environmentDefault: IEnvironment = {
-  alternativeLogo: true,
+  alternativeLogo: false,
   // TODO: apiUrl is deprecated. Use apiBaseUrl instead.
-  apiUrl: 'https://api.ergoplatform.com/api/v0',
-  apiBaseUrl: 'https://api.ergoplatform.com',
+  apiUrl: 'https://tn-ergo-explorer.anetabtc.io/api/v0',
+  apiBaseUrl: 'https://tn-ergo-explorer.anetabtc.io',
+  apiUrlV1: 'https://tn-ergo-explorer.anetabtc.io/api/v1',
   blockchain: {
     coinName: 'Erg',
   },
@@ -12,11 +13,7 @@ export const environmentDefault: IEnvironment = {
   environments: [
     {
       name: 'Testnet',
-      url: 'http://localhost:3000',
-    },
-    {
-      name: 'Mainnet',
-      url: 'http://localhost:3000',
+      url: 'https://tn-ergo-explorer.anetabtc.io',
     },
   ],
   isLoggerEnabled: true,

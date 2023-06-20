@@ -4,11 +4,7 @@ export const environmentProd: IEnvironment = {
   environments: [
     {
       name: 'Testnet',
-      url: 'https://testnet.ergoplatform.com',
-    },
-    {
-      name: 'Mainnet',
-      url: 'https://explorer.ergoplatform.com',
+      url: 'https://tn-ergo-explorer.anetabtc.io',
     },
   ],
   isLoggerEnabled: false,
